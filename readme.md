@@ -4,12 +4,6 @@
 
 > CLI-tool to Convert seconds to HH:MM:SS based on [seconds-to-timestamp](https://github.com/johnie/seconds-to-timestamp)
 
-## Getting started
-
-# seconds-to-timestamp-cli
-
-> CLI-tool to Convert seconds to HH:MM:SS
-
 ## Install
 
 ```
