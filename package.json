@@ -1,0 +1,53 @@
+{
+  "name": "seconds-to-timestamp-cli",
+  "version": "0.0.1",
+  "description": "CLI-tool to convert seconds to HH:MM:SS",
+  "license": "MIT",
+  "repository": "johnie/seconds-to-timestamp-cli",
+  "author": {
+    "name": "Johnie Hjelm",
+    "email": "johnie@hjelm.im",
+    "url": "https://johnie.se"
+  },
+  "type": "module",
+  "bin": {
+    "sts": "cli.js",
+    "seconds-to-timestamp": "cli.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "convert",
+    "format",
+    "seconds",
+    "timestamp"
+  ],
+  "dependencies": {
+    "meow": "^10.1.3",
+    "seconds-to-timestamp": "^0.0.1"
+  },
+  "devDependencies": {
+    "ava": "^4.3.0",
+    "execa": "^6.1.0",
+    "xo": "^0.50.0"
+  },
+  "xo": {
+    "space": true,
+    "rules": {
+      "arrow-parens": "off",
+      "comma-dangle": "off",
+      "object-curly-spacing": "off",
+      "operator-linebreak": "off",
+      "unicorn/no-array-reduce": "off"
+    }
+  }
+}
