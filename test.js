@@ -45,3 +45,8 @@ test('Format and validate "3600 seconds as 1 hour" using flags', async (t) => {
   const { stdout } = await execa('./cli.js', ['-h 1']);
   t.is(stdout, '01:00:00');
 });
+
+test('Format and validate "5 hours and 5.5 seconds" using flags', async (t) => {
+  const { stdout } = await execa('./cli.js', ['-h 5', '-s 5.5']);
+  t.is(stdout, '05:00:05.50');
+});
