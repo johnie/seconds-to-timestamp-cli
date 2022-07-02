@@ -33,7 +33,7 @@
   ],
   "dependencies": {
     "meow": "^10.1.3",
-    "seconds-to-timestamp": "^0.0.1"
+    "seconds-to-timestamp": "^0.0.2"
   },
   "devDependencies": {
     "ava": "^4.3.0",
