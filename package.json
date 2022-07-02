@@ -1,6 +1,6 @@
 {
   "name": "seconds-to-timestamp-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "CLI-tool to convert seconds to HH:MM:SS",
   "license": "MIT",
   "repository": "johnie/seconds-to-timestamp-cli",
